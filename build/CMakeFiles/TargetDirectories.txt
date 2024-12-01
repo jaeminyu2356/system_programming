@@ -1,0 +1,4 @@
+/home/jm/1st_project_2020136085/build/CMakeFiles/file_system_gui.dir
+/home/jm/1st_project_2020136085/build/CMakeFiles/edit_cache.dir
+/home/jm/1st_project_2020136085/build/CMakeFiles/rebuild_cache.dir
+/home/jm/1st_project_2020136085/build/CMakeFiles/file_system_gui_autogen.dir
