@@ -34,7 +34,7 @@ void call_help(void) {
     printf("  rm       - 파일 삭제\n");
     printf("  chmod    - 파일 권한 변경\n");
     printf("  cat      - 파일 내용 표시\n");
-    printf("  cp       - 파일 복사\n");
+    printf("  cp       - 파 사\n");
     printf("  ps       - 프로세스 상태 표시\n");
     printf("  kill     - 프로세스에 시그널 전송\n");
     printf("  exit     - 쉘 종료\n");
@@ -163,7 +163,7 @@ void call_rmdir(const char *current_dir, const char *path) {
     get_absolute_path(current_dir, path, abs_path);
 
     if (!is_within_base_dir(abs_path)) {
-        printf("오류: %s 외부의 디렉토리를 삭제할 수 없습니다\n", BASE_DIR);
+        printf("오류: %s 부의 디렉토리를 삭제 수 없습니다\n", BASE_DIR);
         return;
     }
 
@@ -172,19 +172,21 @@ void call_rmdir(const char *current_dir, const char *path) {
     }
 }
 
-void call_rename(const char *current_dir, const char *source, const char *target) {
+int call_rename(const char *current_dir, const char *source, const char *target) {
     char abs_source[MAX_PATH_SIZE], abs_target[MAX_PATH_SIZE];
     get_absolute_path(current_dir, source, abs_source);
     get_absolute_path(current_dir, target, abs_target);
 
     if (!is_within_base_dir(abs_source) || !is_within_base_dir(abs_target)) {
         printf("오류: %s 외부의 파일 이름을 변경할 수 없습니다\n", BASE_DIR);
-        return;
+        return -1;
     }
 
     if (rename(abs_source, abs_target) < 0) {
         perror("rename");
+        return -1;
     }
+    return 0;
 }
 
 void call_ln(const char *current_dir, const char *original, const char *new_link, int symbolic) {
@@ -225,7 +227,7 @@ void call_rm(const char *current_dir, const char *path, int recursive) {
 
     if (S_ISDIR(st.st_mode)) {
         if (!recursive) {
-            printf("rm: %s: 디렉토리입니다. -r 옵션을 사용하세요\n", path);
+            printf("rm: %s: 디렉토리니다. -r 옵션을 사용하세요\n", path);
             return;
         }
         remove_directory_recursive(abs_path);
@@ -236,25 +238,27 @@ void call_rm(const char *current_dir, const char *path, int recursive) {
     }
 }
 
-void call_chmod(const char *current_dir, const char *path, const char *mode_str) {
+int call_chmod(const char *current_dir, const char *path, const char *mode) {
     char abs_path[MAX_PATH_SIZE];
     get_absolute_path(current_dir, path, abs_path);
 
     if (!is_within_base_dir(abs_path)) {
         printf("오류: %s 외부의 파일 권한을 변경할 수 없습니다\n", BASE_DIR);
-        return;
+        return -1;
     }
 
     struct stat st;
     if (stat(abs_path, &st) < 0) {
         perror("stat");
-        return;
+        return -1;
     }
 
-    mode_t new_mode = parse_mode_str(mode_str, st.st_mode);
+    mode_t new_mode = parse_mode_str(mode, st.st_mode);
     if (chmod(abs_path, new_mode) < 0) {
         perror("chmod");
+        return -1;
     }
+    return 0;
 }
 
 void call_cat(const char *current_dir, const char *path) {
@@ -419,13 +423,15 @@ void call_ps(const char *options) {
     closedir(dir);
 }
 
-void call_kill(const char *pid_str, const char *sig_str) {
+int call_kill(const char *pid_str, const char *sig_str) {
     pid_t pid = atoi(pid_str);
     int sig = sig_str ? atoi(sig_str) : SIGTERM;
     
     if (kill(pid, sig) == -1) {
         perror("kill");
+        return -1;
     }
+    return 0;
 }
 
 void execute_program(const char *program_name, char **args) {

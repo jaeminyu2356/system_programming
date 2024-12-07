@@ -10,8 +10,8 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
 
-# Qt6 패키지 찾기
-find_package(Qt6 REQUIRED COMPONENTS 
+# Qt5 패키지 찾기
+find_package(Qt5 REQUIRED COMPONENTS 
     Core
     Gui
     Widgets
@@ -57,9 +57,9 @@ target_include_directories(${PROJECT_NAME} PRIVATE include)
 
 # Qt 라이브러리 링크
 target_link_libraries(${PROJECT_NAME} PRIVATE
-    Qt6::Core
-    Qt6::Gui
-    Qt6::Widgets
+    Qt5::Core
+    Qt5::Gui
+    Qt5::Widgets
     pthread
 )
 

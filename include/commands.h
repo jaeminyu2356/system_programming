@@ -30,6 +30,7 @@ struct ls_options {
     int sort_by_size;    // -S 옵션
     int reverse_sort;    // -r 옵션
     int show_all_times;  // -T 옵션
+    int long_format;     // -l 옵션 추가
 };
 
 // 파일 정보를 위한 구조체
@@ -45,14 +46,14 @@ void call_ls(const char *current_dir, const struct ls_options *opts);
 void call_cd(const char *current_dir, const char *path, char *new_dir);
 void call_mkdir(const char *current_dir, const char *path);
 void call_rmdir(const char *current_dir, const char *path);
-void call_rename(const char *current_dir, const char *source, const char *target);
+int call_rename(const char *current_dir, const char *source, const char *target);
 void call_ln(const char *current_dir, const char *source, const char *target, int symbolic);
 void call_rm(const char *current_dir, const char *path, int recursive);
-void call_chmod(const char *current_dir, const char *path, const char *mode);
+int call_chmod(const char *current_dir, const char *path, const char *mode);
 void call_cat(const char *current_dir, const char *path);
 void call_cp(const char *current_dir, const char *source, const char *target);
 void call_ps(const char *options);
-void call_kill(const char *pid_str, const char *sig_str);
+int call_kill(const char *pid_str, const char *sig_str);
 void call_mmap_test(const char *filename);
 void execute_program(const char *program_name, char **args);
 int setup_chroot(const char* path);

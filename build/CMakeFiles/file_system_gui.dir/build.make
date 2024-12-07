@@ -156,11 +156,9 @@ file_system_gui: CMakeFiles/file_system_gui.dir/src/commands.c.o
 file_system_gui: CMakeFiles/file_system_gui.dir/src/utils.c.o
 file_system_gui: CMakeFiles/file_system_gui.dir/src/mainwindow.cpp.o
 file_system_gui: CMakeFiles/file_system_gui.dir/build.make
-file_system_gui: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.2.4
-file_system_gui: /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.2.4
-file_system_gui: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.2.4
-file_system_gui: /usr/lib/x86_64-linux-gnu/libGLX.so
-file_system_gui: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+file_system_gui: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.3
+file_system_gui: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.3
+file_system_gui: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.3
 file_system_gui: CMakeFiles/file_system_gui.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jm/1st_project_2020136085/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable file_system_gui"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/file_system_gui.dir/link.txt --verbose=$(VERBOSE)
