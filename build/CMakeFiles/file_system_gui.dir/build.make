@@ -139,32 +139,96 @@ CMakeFiles/file_system_gui.dir/src/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/file_system_gui.dir/src/mainwindow.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jm/1st_project_2020136085/src/mainwindow.cpp -o CMakeFiles/file_system_gui.dir/src/mainwindow.cpp.s
 
+CMakeFiles/file_system_gui.dir/src/mainwindow_ui.cpp.o: CMakeFiles/file_system_gui.dir/flags.make
+CMakeFiles/file_system_gui.dir/src/mainwindow_ui.cpp.o: ../src/mainwindow_ui.cpp
+CMakeFiles/file_system_gui.dir/src/mainwindow_ui.cpp.o: CMakeFiles/file_system_gui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jm/1st_project_2020136085/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/file_system_gui.dir/src/mainwindow_ui.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/file_system_gui.dir/src/mainwindow_ui.cpp.o -MF CMakeFiles/file_system_gui.dir/src/mainwindow_ui.cpp.o.d -o CMakeFiles/file_system_gui.dir/src/mainwindow_ui.cpp.o -c /home/jm/1st_project_2020136085/src/mainwindow_ui.cpp
+
+CMakeFiles/file_system_gui.dir/src/mainwindow_ui.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/file_system_gui.dir/src/mainwindow_ui.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jm/1st_project_2020136085/src/mainwindow_ui.cpp > CMakeFiles/file_system_gui.dir/src/mainwindow_ui.cpp.i
+
+CMakeFiles/file_system_gui.dir/src/mainwindow_ui.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/file_system_gui.dir/src/mainwindow_ui.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jm/1st_project_2020136085/src/mainwindow_ui.cpp -o CMakeFiles/file_system_gui.dir/src/mainwindow_ui.cpp.s
+
+CMakeFiles/file_system_gui.dir/src/mainwindow_file_actions.cpp.o: CMakeFiles/file_system_gui.dir/flags.make
+CMakeFiles/file_system_gui.dir/src/mainwindow_file_actions.cpp.o: ../src/mainwindow_file_actions.cpp
+CMakeFiles/file_system_gui.dir/src/mainwindow_file_actions.cpp.o: CMakeFiles/file_system_gui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jm/1st_project_2020136085/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/file_system_gui.dir/src/mainwindow_file_actions.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/file_system_gui.dir/src/mainwindow_file_actions.cpp.o -MF CMakeFiles/file_system_gui.dir/src/mainwindow_file_actions.cpp.o.d -o CMakeFiles/file_system_gui.dir/src/mainwindow_file_actions.cpp.o -c /home/jm/1st_project_2020136085/src/mainwindow_file_actions.cpp
+
+CMakeFiles/file_system_gui.dir/src/mainwindow_file_actions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/file_system_gui.dir/src/mainwindow_file_actions.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jm/1st_project_2020136085/src/mainwindow_file_actions.cpp > CMakeFiles/file_system_gui.dir/src/mainwindow_file_actions.cpp.i
+
+CMakeFiles/file_system_gui.dir/src/mainwindow_file_actions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/file_system_gui.dir/src/mainwindow_file_actions.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jm/1st_project_2020136085/src/mainwindow_file_actions.cpp -o CMakeFiles/file_system_gui.dir/src/mainwindow_file_actions.cpp.s
+
+CMakeFiles/file_system_gui.dir/src/mainwindow_process_actions.cpp.o: CMakeFiles/file_system_gui.dir/flags.make
+CMakeFiles/file_system_gui.dir/src/mainwindow_process_actions.cpp.o: ../src/mainwindow_process_actions.cpp
+CMakeFiles/file_system_gui.dir/src/mainwindow_process_actions.cpp.o: CMakeFiles/file_system_gui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jm/1st_project_2020136085/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/file_system_gui.dir/src/mainwindow_process_actions.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/file_system_gui.dir/src/mainwindow_process_actions.cpp.o -MF CMakeFiles/file_system_gui.dir/src/mainwindow_process_actions.cpp.o.d -o CMakeFiles/file_system_gui.dir/src/mainwindow_process_actions.cpp.o -c /home/jm/1st_project_2020136085/src/mainwindow_process_actions.cpp
+
+CMakeFiles/file_system_gui.dir/src/mainwindow_process_actions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/file_system_gui.dir/src/mainwindow_process_actions.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jm/1st_project_2020136085/src/mainwindow_process_actions.cpp > CMakeFiles/file_system_gui.dir/src/mainwindow_process_actions.cpp.i
+
+CMakeFiles/file_system_gui.dir/src/mainwindow_process_actions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/file_system_gui.dir/src/mainwindow_process_actions.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jm/1st_project_2020136085/src/mainwindow_process_actions.cpp -o CMakeFiles/file_system_gui.dir/src/mainwindow_process_actions.cpp.s
+
+CMakeFiles/file_system_gui.dir/src/mainwindow_test_actions.cpp.o: CMakeFiles/file_system_gui.dir/flags.make
+CMakeFiles/file_system_gui.dir/src/mainwindow_test_actions.cpp.o: ../src/mainwindow_test_actions.cpp
+CMakeFiles/file_system_gui.dir/src/mainwindow_test_actions.cpp.o: CMakeFiles/file_system_gui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jm/1st_project_2020136085/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/file_system_gui.dir/src/mainwindow_test_actions.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/file_system_gui.dir/src/mainwindow_test_actions.cpp.o -MF CMakeFiles/file_system_gui.dir/src/mainwindow_test_actions.cpp.o.d -o CMakeFiles/file_system_gui.dir/src/mainwindow_test_actions.cpp.o -c /home/jm/1st_project_2020136085/src/mainwindow_test_actions.cpp
+
+CMakeFiles/file_system_gui.dir/src/mainwindow_test_actions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/file_system_gui.dir/src/mainwindow_test_actions.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jm/1st_project_2020136085/src/mainwindow_test_actions.cpp > CMakeFiles/file_system_gui.dir/src/mainwindow_test_actions.cpp.i
+
+CMakeFiles/file_system_gui.dir/src/mainwindow_test_actions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/file_system_gui.dir/src/mainwindow_test_actions.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jm/1st_project_2020136085/src/mainwindow_test_actions.cpp -o CMakeFiles/file_system_gui.dir/src/mainwindow_test_actions.cpp.s
+
 # Object files for target file_system_gui
 file_system_gui_OBJECTS = \
 "CMakeFiles/file_system_gui.dir/file_system_gui_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/file_system_gui.dir/src/main.cpp.o" \
 "CMakeFiles/file_system_gui.dir/src/commands.c.o" \
 "CMakeFiles/file_system_gui.dir/src/utils.c.o" \
-"CMakeFiles/file_system_gui.dir/src/mainwindow.cpp.o"
+"CMakeFiles/file_system_gui.dir/src/mainwindow.cpp.o" \
+"CMakeFiles/file_system_gui.dir/src/mainwindow_ui.cpp.o" \
+"CMakeFiles/file_system_gui.dir/src/mainwindow_file_actions.cpp.o" \
+"CMakeFiles/file_system_gui.dir/src/mainwindow_process_actions.cpp.o" \
+"CMakeFiles/file_system_gui.dir/src/mainwindow_test_actions.cpp.o"
 
 # External object files for target file_system_gui
 file_system_gui_EXTERNAL_OBJECTS =
 
-file_system_gui: CMakeFiles/file_system_gui.dir/file_system_gui_autogen/mocs_compilation.cpp.o
-file_system_gui: CMakeFiles/file_system_gui.dir/src/main.cpp.o
-file_system_gui: CMakeFiles/file_system_gui.dir/src/commands.c.o
-file_system_gui: CMakeFiles/file_system_gui.dir/src/utils.c.o
-file_system_gui: CMakeFiles/file_system_gui.dir/src/mainwindow.cpp.o
-file_system_gui: CMakeFiles/file_system_gui.dir/build.make
-file_system_gui: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.3
-file_system_gui: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.3
-file_system_gui: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.3
-file_system_gui: CMakeFiles/file_system_gui.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jm/1st_project_2020136085/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable file_system_gui"
+bin/file_system_gui: CMakeFiles/file_system_gui.dir/file_system_gui_autogen/mocs_compilation.cpp.o
+bin/file_system_gui: CMakeFiles/file_system_gui.dir/src/main.cpp.o
+bin/file_system_gui: CMakeFiles/file_system_gui.dir/src/commands.c.o
+bin/file_system_gui: CMakeFiles/file_system_gui.dir/src/utils.c.o
+bin/file_system_gui: CMakeFiles/file_system_gui.dir/src/mainwindow.cpp.o
+bin/file_system_gui: CMakeFiles/file_system_gui.dir/src/mainwindow_ui.cpp.o
+bin/file_system_gui: CMakeFiles/file_system_gui.dir/src/mainwindow_file_actions.cpp.o
+bin/file_system_gui: CMakeFiles/file_system_gui.dir/src/mainwindow_process_actions.cpp.o
+bin/file_system_gui: CMakeFiles/file_system_gui.dir/src/mainwindow_test_actions.cpp.o
+bin/file_system_gui: CMakeFiles/file_system_gui.dir/build.make
+bin/file_system_gui: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.3
+bin/file_system_gui: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.3
+bin/file_system_gui: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.3
+bin/file_system_gui: CMakeFiles/file_system_gui.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jm/1st_project_2020136085/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable bin/file_system_gui"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/file_system_gui.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/file_system_gui.dir/build: file_system_gui
+CMakeFiles/file_system_gui.dir/build: bin/file_system_gui
 .PHONY : CMakeFiles/file_system_gui.dir/build
 
 CMakeFiles/file_system_gui.dir/clean:

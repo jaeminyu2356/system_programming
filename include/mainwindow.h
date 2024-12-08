@@ -29,17 +29,38 @@
 #include <string>
 #include <QHeaderView>
 #include <QTimer>
+#include <QGroupBox>
+#include <QDialogButtonBox>
+#include <QDockWidget>
+#include <QProgressDialog>
+#include <QDragEnterEvent>
+#include <QDropEvent>
+#include <QMimeData>
+#include <QDebug>
+#include <QStack>
+#include "mainwindow_file_actions.h"
+
+class MainWindowUI;
+class MainWindowFileActions;
+class MainWindowProcessActions;
+class MainWindowTestActions;
 
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
 
+    friend class MainWindowUI;
+    friend class MainWindowFileActions;
+    friend class MainWindowProcessActions;
+    friend class MainWindowTestActions;
+
 public:
     explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
-    void setCurrentDirectory(const std::string& dir);
+    void setCurrentDirectory(const std::string& dir, bool addToHistory = true);
+    QString getCurrentDirectory() const { return QString::fromStdString(currentPath); }
 
-private slots:
+public slots:
     void handleSelectionChanged();
     void handleLs();
     void handleMkdir();
@@ -50,7 +71,7 @@ private slots:
     void handleLn();
     void handleCat();
     void handlePs();
-    void handleKill(const QString &pid);
+    void handleKill(const QString &pid = QString());
     void createNewFolder();
     void deleteSelected();
     void copySelected();
@@ -58,25 +79,17 @@ private slots:
     void showContextMenu(const QPoint &pos);
     void showFileDetails(const QString &fileName);
     void handleRmdir();
+    void handleMmapTest();
+    void handleExecuteProgram();
 
 private:
-    void setupUI();
-    void createActions();
-    void createToolBar();
-    void createMenuBar();
-    void refreshFileList();
-    void updateStatusBar();
-    void copyDirectory(const QString &sourcePath, const QString &destPath);
-    QString formatSize(qint64 size);
-    void handleCd(const QString& path);
-    void refreshProcessList(QTableWidget *processTable);
-
     QFileSystemModel *fileSystemModel;
     QTreeView *treeView;
     QListView *listView;
     QToolBar *fileToolBar;
     std::string currentPath;
     QModelIndexList selectedIndexes;
+    bool moveOperation = false;  // 이동 작업 여부를 나타내는 플래그
 
     // Actions
     QAction *newFolderAction;
@@ -95,6 +108,10 @@ private:
     QAction *killAction;
     QAction *exitAction;
     QAction *rmdirAction;
+    QAction *mmapTestAction;
+    QAction *execProgramAction;
+    QAction *backAction;
+    QStack<QString> directoryHistory;
 }; 
 
 #endif // MAINWINDOW_H 

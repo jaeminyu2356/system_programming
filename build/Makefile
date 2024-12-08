@@ -238,6 +238,102 @@ src/mainwindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/file_system_gui.dir/build.make CMakeFiles/file_system_gui.dir/src/mainwindow.cpp.s
 .PHONY : src/mainwindow.cpp.s
 
+src/mainwindow_file_actions.o: src/mainwindow_file_actions.cpp.o
+.PHONY : src/mainwindow_file_actions.o
+
+# target to build an object file
+src/mainwindow_file_actions.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/file_system_gui.dir/build.make CMakeFiles/file_system_gui.dir/src/mainwindow_file_actions.cpp.o
+.PHONY : src/mainwindow_file_actions.cpp.o
+
+src/mainwindow_file_actions.i: src/mainwindow_file_actions.cpp.i
+.PHONY : src/mainwindow_file_actions.i
+
+# target to preprocess a source file
+src/mainwindow_file_actions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/file_system_gui.dir/build.make CMakeFiles/file_system_gui.dir/src/mainwindow_file_actions.cpp.i
+.PHONY : src/mainwindow_file_actions.cpp.i
+
+src/mainwindow_file_actions.s: src/mainwindow_file_actions.cpp.s
+.PHONY : src/mainwindow_file_actions.s
+
+# target to generate assembly for a file
+src/mainwindow_file_actions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/file_system_gui.dir/build.make CMakeFiles/file_system_gui.dir/src/mainwindow_file_actions.cpp.s
+.PHONY : src/mainwindow_file_actions.cpp.s
+
+src/mainwindow_process_actions.o: src/mainwindow_process_actions.cpp.o
+.PHONY : src/mainwindow_process_actions.o
+
+# target to build an object file
+src/mainwindow_process_actions.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/file_system_gui.dir/build.make CMakeFiles/file_system_gui.dir/src/mainwindow_process_actions.cpp.o
+.PHONY : src/mainwindow_process_actions.cpp.o
+
+src/mainwindow_process_actions.i: src/mainwindow_process_actions.cpp.i
+.PHONY : src/mainwindow_process_actions.i
+
+# target to preprocess a source file
+src/mainwindow_process_actions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/file_system_gui.dir/build.make CMakeFiles/file_system_gui.dir/src/mainwindow_process_actions.cpp.i
+.PHONY : src/mainwindow_process_actions.cpp.i
+
+src/mainwindow_process_actions.s: src/mainwindow_process_actions.cpp.s
+.PHONY : src/mainwindow_process_actions.s
+
+# target to generate assembly for a file
+src/mainwindow_process_actions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/file_system_gui.dir/build.make CMakeFiles/file_system_gui.dir/src/mainwindow_process_actions.cpp.s
+.PHONY : src/mainwindow_process_actions.cpp.s
+
+src/mainwindow_test_actions.o: src/mainwindow_test_actions.cpp.o
+.PHONY : src/mainwindow_test_actions.o
+
+# target to build an object file
+src/mainwindow_test_actions.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/file_system_gui.dir/build.make CMakeFiles/file_system_gui.dir/src/mainwindow_test_actions.cpp.o
+.PHONY : src/mainwindow_test_actions.cpp.o
+
+src/mainwindow_test_actions.i: src/mainwindow_test_actions.cpp.i
+.PHONY : src/mainwindow_test_actions.i
+
+# target to preprocess a source file
+src/mainwindow_test_actions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/file_system_gui.dir/build.make CMakeFiles/file_system_gui.dir/src/mainwindow_test_actions.cpp.i
+.PHONY : src/mainwindow_test_actions.cpp.i
+
+src/mainwindow_test_actions.s: src/mainwindow_test_actions.cpp.s
+.PHONY : src/mainwindow_test_actions.s
+
+# target to generate assembly for a file
+src/mainwindow_test_actions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/file_system_gui.dir/build.make CMakeFiles/file_system_gui.dir/src/mainwindow_test_actions.cpp.s
+.PHONY : src/mainwindow_test_actions.cpp.s
+
+src/mainwindow_ui.o: src/mainwindow_ui.cpp.o
+.PHONY : src/mainwindow_ui.o
+
+# target to build an object file
+src/mainwindow_ui.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/file_system_gui.dir/build.make CMakeFiles/file_system_gui.dir/src/mainwindow_ui.cpp.o
+.PHONY : src/mainwindow_ui.cpp.o
+
+src/mainwindow_ui.i: src/mainwindow_ui.cpp.i
+.PHONY : src/mainwindow_ui.i
+
+# target to preprocess a source file
+src/mainwindow_ui.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/file_system_gui.dir/build.make CMakeFiles/file_system_gui.dir/src/mainwindow_ui.cpp.i
+.PHONY : src/mainwindow_ui.cpp.i
+
+src/mainwindow_ui.s: src/mainwindow_ui.cpp.s
+.PHONY : src/mainwindow_ui.s
+
+# target to generate assembly for a file
+src/mainwindow_ui.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/file_system_gui.dir/build.make CMakeFiles/file_system_gui.dir/src/mainwindow_ui.cpp.s
+.PHONY : src/mainwindow_ui.cpp.s
+
 src/utils.o: src/utils.c.o
 .PHONY : src/utils.o
 
@@ -284,6 +380,18 @@ help:
 	@echo "... src/mainwindow.o"
 	@echo "... src/mainwindow.i"
 	@echo "... src/mainwindow.s"
+	@echo "... src/mainwindow_file_actions.o"
+	@echo "... src/mainwindow_file_actions.i"
+	@echo "... src/mainwindow_file_actions.s"
+	@echo "... src/mainwindow_process_actions.o"
+	@echo "... src/mainwindow_process_actions.i"
+	@echo "... src/mainwindow_process_actions.s"
+	@echo "... src/mainwindow_test_actions.o"
+	@echo "... src/mainwindow_test_actions.i"
+	@echo "... src/mainwindow_test_actions.s"
+	@echo "... src/mainwindow_ui.o"
+	@echo "... src/mainwindow_ui.i"
+	@echo "... src/mainwindow_ui.s"
 	@echo "... src/utils.o"
 	@echo "... src/utils.i"
 	@echo "... src/utils.s"

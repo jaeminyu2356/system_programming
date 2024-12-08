@@ -1,5 +1,6 @@
-/home/jm/1st_project_2020136085/build/file_system_gui_autogen/6YEA5652QU/moc_mainwindow.cpp: /home/jm/1st_project_2020136085/include/mainwindow.h \
+/home/jm/1st_project_2020136085/build/file_system_gui_autogen/6YEA5652QU/moc_mainwindow_process_actions.cpp: /home/jm/1st_project_2020136085/include/mainwindow_process_actions.h \
   /home/jm/1st_project_2020136085/build/file_system_gui_autogen/moc_predefs.h \
+  /home/jm/1st_project_2020136085/include/mainwindow.h \
   /home/jm/1st_project_2020136085/include/mainwindow_file_actions.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \

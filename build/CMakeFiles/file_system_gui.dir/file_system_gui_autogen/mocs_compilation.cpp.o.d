@@ -374,4 +374,40 @@ CMakeFiles/file_system_gui.dir/file_system_gui_autogen/mocs_compilation.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qheaderview.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QTimer \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasictimer.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasictimer.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGroupBox \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgroupbox.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialogButtonBox \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialogbuttonbox.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDockWidget \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdockwidget.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QProgressDialog \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qprogressdialog.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/QDragEnterEvent \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector2d.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/QDropEvent \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QMimeData \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qmimedata.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontiguouscache.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QStack \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qstack.h \
+ /home/jm/1st_project_2020136085/build/file_system_gui_autogen/6YEA5652QU/../../../include/mainwindow_file_actions.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
+ /home/jm/1st_project_2020136085/build/file_system_gui_autogen/6YEA5652QU/moc_mainwindow_file_actions.cpp \
+ /home/jm/1st_project_2020136085/build/file_system_gui_autogen/6YEA5652QU/../../../include/mainwindow_file_actions.h \
+ /home/jm/1st_project_2020136085/build/file_system_gui_autogen/6YEA5652QU/moc_mainwindow_process_actions.cpp \
+ /home/jm/1st_project_2020136085/build/file_system_gui_autogen/6YEA5652QU/../../../include/mainwindow_process_actions.h \
+ /home/jm/1st_project_2020136085/build/file_system_gui_autogen/6YEA5652QU/../../../include/mainwindow.h \
+ /home/jm/1st_project_2020136085/build/file_system_gui_autogen/6YEA5652QU/moc_mainwindow_test_actions.cpp \
+ /home/jm/1st_project_2020136085/build/file_system_gui_autogen/6YEA5652QU/../../../include/mainwindow_test_actions.h \
+ /home/jm/1st_project_2020136085/build/file_system_gui_autogen/6YEA5652QU/moc_mainwindow_ui.cpp \
+ /home/jm/1st_project_2020136085/build/file_system_gui_autogen/6YEA5652QU/../../../include/mainwindow_ui.h \
+ /home/jm/1st_project_2020136085/build/file_system_gui_autogen/6YEA5652QU/../../../include/mainwindow_process_actions.h \
+ /home/jm/1st_project_2020136085/build/file_system_gui_autogen/6YEA5652QU/../../../include/mainwindow_test_actions.h

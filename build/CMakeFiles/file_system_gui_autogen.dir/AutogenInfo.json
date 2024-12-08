@@ -97,6 +97,30 @@
 			null
 		],
 		[
+			"/home/jm/1st_project_2020136085/include/mainwindow_file_actions.h",
+			"MU",
+			"6YEA5652QU/moc_mainwindow_file_actions.cpp",
+			null
+		],
+		[
+			"/home/jm/1st_project_2020136085/include/mainwindow_process_actions.h",
+			"MU",
+			"6YEA5652QU/moc_mainwindow_process_actions.cpp",
+			null
+		],
+		[
+			"/home/jm/1st_project_2020136085/include/mainwindow_test_actions.h",
+			"MU",
+			"6YEA5652QU/moc_mainwindow_test_actions.cpp",
+			null
+		],
+		[
+			"/home/jm/1st_project_2020136085/include/mainwindow_ui.h",
+			"MU",
+			"6YEA5652QU/moc_mainwindow_ui.cpp",
+			null
+		],
+		[
 			"/home/jm/1st_project_2020136085/include/utils.h",
 			"MU",
 			"6YEA5652QU/moc_utils.cpp",
@@ -157,6 +181,22 @@
 		[ "/home/jm/1st_project_2020136085/src/commands.c", "MU", null ],
 		[ "/home/jm/1st_project_2020136085/src/main.cpp", "MU", null ],
 		[ "/home/jm/1st_project_2020136085/src/mainwindow.cpp", "MU", null ],
+		[
+			"/home/jm/1st_project_2020136085/src/mainwindow_file_actions.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jm/1st_project_2020136085/src/mainwindow_process_actions.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/jm/1st_project_2020136085/src/mainwindow_test_actions.cpp",
+			"MU",
+			null
+		],
+		[ "/home/jm/1st_project_2020136085/src/mainwindow_ui.cpp", "MU", null ],
 		[ "/home/jm/1st_project_2020136085/src/utils.c", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],

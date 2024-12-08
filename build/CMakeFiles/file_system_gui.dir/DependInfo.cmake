@@ -13,6 +13,10 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/jm/1st_project_2020136085/build/file_system_gui_autogen/mocs_compilation.cpp" "CMakeFiles/file_system_gui.dir/file_system_gui_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/file_system_gui.dir/file_system_gui_autogen/mocs_compilation.cpp.o.d"
   "/home/jm/1st_project_2020136085/src/main.cpp" "CMakeFiles/file_system_gui.dir/src/main.cpp.o" "gcc" "CMakeFiles/file_system_gui.dir/src/main.cpp.o.d"
   "/home/jm/1st_project_2020136085/src/mainwindow.cpp" "CMakeFiles/file_system_gui.dir/src/mainwindow.cpp.o" "gcc" "CMakeFiles/file_system_gui.dir/src/mainwindow.cpp.o.d"
+  "/home/jm/1st_project_2020136085/src/mainwindow_file_actions.cpp" "CMakeFiles/file_system_gui.dir/src/mainwindow_file_actions.cpp.o" "gcc" "CMakeFiles/file_system_gui.dir/src/mainwindow_file_actions.cpp.o.d"
+  "/home/jm/1st_project_2020136085/src/mainwindow_process_actions.cpp" "CMakeFiles/file_system_gui.dir/src/mainwindow_process_actions.cpp.o" "gcc" "CMakeFiles/file_system_gui.dir/src/mainwindow_process_actions.cpp.o.d"
+  "/home/jm/1st_project_2020136085/src/mainwindow_test_actions.cpp" "CMakeFiles/file_system_gui.dir/src/mainwindow_test_actions.cpp.o" "gcc" "CMakeFiles/file_system_gui.dir/src/mainwindow_test_actions.cpp.o.d"
+  "/home/jm/1st_project_2020136085/src/mainwindow_ui.cpp" "CMakeFiles/file_system_gui.dir/src/mainwindow_ui.cpp.o" "gcc" "CMakeFiles/file_system_gui.dir/src/mainwindow_ui.cpp.o.d"
   )
 
 # Targets to which this target links.

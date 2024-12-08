@@ -10,6 +10,7 @@
 #include <unistd.h>
 #include <sys/stat.h>
 #include <thread>
+#include <QtWidgets>
 
 char current_dir[MAX_PATH_SIZE] = BASE_DIR;
 volatile sig_atomic_t interrupted = 0;
@@ -195,6 +196,8 @@ int main(int argc, char **argv) {
         sa.sa_flags = 0;
         sigaction(SIGINT, &sa, NULL);
     }
+
+    qputenv("QT_ACCESSIBILITY", "0");
 
     QApplication app(argc, argv);
     MainWindow mainWindow;

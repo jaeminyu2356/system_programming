@@ -10,10 +10,18 @@ file(REMOVE_RECURSE
   "CMakeFiles/file_system_gui.dir/src/main.cpp.o.d"
   "CMakeFiles/file_system_gui.dir/src/mainwindow.cpp.o"
   "CMakeFiles/file_system_gui.dir/src/mainwindow.cpp.o.d"
+  "CMakeFiles/file_system_gui.dir/src/mainwindow_file_actions.cpp.o"
+  "CMakeFiles/file_system_gui.dir/src/mainwindow_file_actions.cpp.o.d"
+  "CMakeFiles/file_system_gui.dir/src/mainwindow_process_actions.cpp.o"
+  "CMakeFiles/file_system_gui.dir/src/mainwindow_process_actions.cpp.o.d"
+  "CMakeFiles/file_system_gui.dir/src/mainwindow_test_actions.cpp.o"
+  "CMakeFiles/file_system_gui.dir/src/mainwindow_test_actions.cpp.o.d"
+  "CMakeFiles/file_system_gui.dir/src/mainwindow_ui.cpp.o"
+  "CMakeFiles/file_system_gui.dir/src/mainwindow_ui.cpp.o.d"
   "CMakeFiles/file_system_gui.dir/src/utils.c.o"
   "CMakeFiles/file_system_gui.dir/src/utils.c.o.d"
-  "file_system_gui"
-  "file_system_gui.pdb"
+  "bin/file_system_gui"
+  "bin/file_system_gui.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
